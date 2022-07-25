@@ -9,6 +9,8 @@ import { Home } from "./components/pages/Home/Home";
 import { NotFound } from "./components/pages/NotFound/NouFound"; 
 import Giphy from "./components/UI/Giphy/Giphy";
 import { ChangeText } from "./components/pages/ChangeText/ChangeText";
+import { List } from "./components/pages/List/List"
+import { Reloj } from "./components/pages/Reloj/Reloj"
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
         <Route path='*' element={<NotFound />} />
         <Route path='/Giphy' element={<Giphy />} />
         <Route path='/ChangeText' element={<ChangeText />} />
+        <Route path='/List' element={<List />} />
+        <Route path='/Reloj' element={<Reloj />} />
       </Routes>
     </div>
   )
