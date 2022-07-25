@@ -29,6 +29,12 @@ export const NavHome = () => {
             <li>
                 <Link to='/ChangeText'>Text</Link>
             </li>
+            <li>
+                <Link to='/List'>List</Link>
+            </li>
+            <li>
+                <Link to='/Reloj'>Reloj</Link>
+            </li>
             
         </ul>
             
