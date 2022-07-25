@@ -26,6 +26,9 @@ export const NavHome = () => {
             <li>
                 <Link to='/CounterTen'>Counter</Link>
             </li>
+            <li>
+                <Link to='/ChangeText'>Text</Link>
+            </li>
             
         </ul>
             

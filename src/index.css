@@ -79,7 +79,7 @@ code {
 }
 
 ul{
-  width: 1000px;
+  width: 1335px;
   display: flex;
   /* flex-direction: row; */
   justify-content: space-around;
@@ -259,4 +259,11 @@ body.color .h2Counter{
 
 body.color .form-mail{
   color: white;
+}
+
+/*----------------------------*/
+
+.textRepeat{
+  text-align: center;
+  margin: 20px;
 }
